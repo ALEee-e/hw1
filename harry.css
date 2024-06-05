@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    background-color: #fFFFFF;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Cormorant Garamond', serif;
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border: 2px solid #BED7F1;
+    border-radius: 50px;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+    button:hover, #openModal:hover {
+        background-color: #BED7F1;
+        color: white;
+    }
+#openModal {
+ 
+    padding: 10px 260px;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.result-item {
+    background-color: #BED7F1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius:20px;
+}
+
+#amati {
+    display: flex;
+    justify-content: space-around;
+    border-collapse: collapse;
+    margin-top: -1%;
+    overflow: hidden;
+}
+
+.ma {
+    font-family: cursive;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 100%;
+    margin: 2vw;
+    flex: 0 0 25%;
+    transition: transform 0.5s ease;
+}
+
+    .ma img {
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: 700px;
+        border-radius: 20px;
+    }
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-items {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.sinistra, .destra {
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    background-color: black;
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.sinistra {
+    left: 10px;
+}
+
+.destra {
+    right: 10px;
+}
+
+#leggere {
+    display: flex;
+    text-align: left;
+    background-color: #BED7F1;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.fot {
+    width: calc(60% - 10px);
+}
+
+.titolo2 {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-left: 5%;
+    font-size:150%;
+}
+
+nav {
+    text-align: center; 
+    background-color: #BED7F1;
+    font-weight: bold;
+}
+.riga {
+    margin: 6vh 16vh;
+    border: 1px solid #BED7F1;
+}
+p.testo {
+    text-align: center;
+    font-size: 150%;
+    font-family: cursive;
+
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+
+    margin: 15% auto;
+    padding: 20px;
+    border: none; 
+    width: 80%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.close-button {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .close-button:hover,
+    .close-button:focus {
+        color: red;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+#prevPhoto, #nextPhoto, #closeModal {
+    background-color: #FFFFFF;
+    border: 2px solid #BED7F1;
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #BED7F1;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+    #prevPhoto:hover, #nextPhoto:hover, #closeModal:hover {
+        background-color: #BED7F1;
+        color: white;
+    }
+#modalImage {
+    border-radius:10px;
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+}
+#testo {
+    font-size: 200%;
+    color: gray;
+    padding-top: 10px;
+    margin-bottom: -100px;
+}
+#tasti {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+ 
+}
+
+.tito {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+.tit {
+    font-size: 110%;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+
+.tasto {
+        height:70%; 
+        width:10%; 
+        font-size: 1em;
+        padding: 0.5em 1em;
+        border: 2px solid #BED7F1;
+        border-radius: 50px;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        margin: 0.5em;
+        transition: background-color 0.3s ease;
+    }
+
+.tasto {
+            background-color: #BED7F1;
+            color: white;
+        }
+
+#menu {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20%;
+    background-color: #FFFFFF;
+    margin-bottom: -200px; 
+}
+
+.logo {
+    height: 100%;
+}
+
+header a {
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+

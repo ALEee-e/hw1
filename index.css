@@ -1,0 +1,391 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8FAFE;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+.header-top {
+    padding: 7px;
+    background-color: #BED7F1;
+    text-align: center;
+    font-size: 100%;
+}
+
+#menu {
+    height: 12vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 20%;
+}
+.logo {
+    height:100%;
+}
+
+header {
+    background: url('img/f33920dd5897ff1262f5b2e1ca787c68.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
+.copertina {
+    padding: 30%;
+    margin-left: 20%;
+}
+
+.tasto {
+    font-size: 80%;
+    display: flex;
+    border-radius:50px;
+    border: 2px solid #BED7F1;
+    width: fit-content;
+    padding: 1vh;
+    background-color: white;
+    color: GrayText;
+    font-weight: bold;
+    margin-left: 1%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+    .tasto:hover {
+        background-color: #BED7F1;
+        color: white;
+    }
+
+.titol {
+    font-size: 300%;
+    font-weight: bold;
+}
+#bot1 {
+    background-image: url('img/f33920dd5897ff1262f5b2e1ca787c68.jpg');
+    background-size: cover;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-right: 1%;
+}
+
+#bot2 {
+    background-image: url('img/3bc3e65a562b7c6ecaab38e996bbc5a5.jpg');
+    background-size: cover;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 1%;
+}
+.bottoni {
+    padding-left: 45%;
+}
+
+#galleria, #galleria2 {
+    display: flex;
+}
+.galleria {
+    margin: 1% 1%;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.galleria img {
+        border-radius: 20px;
+        width:100%;
+        height: 500px;
+    }
+
+/*mostra altro */
+.show-details {
+    align-items: center;
+    border-radius: 3px;
+    display: flex;
+    height: 2em;
+    font-weight: bold;
+}
+    .show-details img {
+        height: 50%;
+    }
+
+.riga {
+    margin: 6vh 16vh;
+    border: 1px solid #BED7F1;
+}
+
+#amati {
+    display: flex;
+    justify-content: space-around;
+    border-collapse: collapse;
+    margin-top: -1%;
+    overflow: hidden;
+}
+
+.ma {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 100%;
+    margin: 2vw;
+    flex: 0 0 25%;
+    transition: transform 0.5s ease;
+  
+}
+    .ma img {
+        max-width: 100%;
+        height: 500px;
+        border-radius:20px; 
+    }
+
+
+#leggere {
+    display: flex;
+    text-align: left;
+    background-color: #BED7F1;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.fot {
+    width: calc(80% - 10px);
+}
+
+.titolo2 {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+
+
+
+.pannello a {
+    color: black;
+    padding: 1vw;
+    border-radius: 50px;
+}
+
+div.pagina {
+    background-color: #FFFFFF;
+    height: 50%;
+    width: 100%;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+}
+
+div.pan {
+    background-color: #BED7F1;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 4vh 2vh;
+}
+
+.foto {
+    display: flex;
+    width: 100%;
+}
+
+div.pannellof a {
+    padding-top: 12%;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+ 
+
+
+#part1 {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.ti {
+    padding-top: 15%;
+    font-size: 350%;
+    font-weight: bold;
+}
+
+.inizio {
+    padding: 50px;
+    margin-left: 40px;
+}
+
+
+footer {
+    margin-top: 10vh;
+    background-color: #BED7F1;
+    padding-top: 6vh;
+}
+
+
+#informazioni {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+}
+
+.pannellof {
+    display: flex;
+    flex-direction: column;
+}
+
+.fine {
+    padding-top: 1%;
+    color: white;
+    background-color: black;
+    font-size: 90%;
+}
+
+    .fine img {
+        height: auto;
+        width: calc(7% - 10px);
+    }
+
+
+p.tit{
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.strong {
+    font-weight: bold;
+}
+
+.ok {
+    margin: 3vw 1vw;
+    text-align: left;
+    padding-bottom: 4vh;
+    display: flex;
+    flex: 0 0 25%;
+    transition: transform 0.5s ease;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+
+
+    .ok img {
+        max-width: 100%;
+        height: 550px;
+        border-radius: 20px;
+        background-size: cover;
+    }
+span.tit {
+    font-weight: bold;
+    text-align: center;
+ 
+    font-size: 130%;
+}
+
+
+.tito {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+.botton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%; 
+}
+
+.termini {
+    font-size: 80%;
+ 
+}
+
+a {
+    text-decoration: none;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-items {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.sinistra,
+.destra {
+    position: absolute;
+    top: 50%;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid white;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.sinistra {
+    left: 10px;
+}
+
+.destra {
+    right: 10px;
+}
+
+
+
+
+.login, .registrazione, .logout {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border: 2px solid #BED7F1;
+    border-radius: 50px;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+    .login:hover, .registrazione:hover, .logout:hover {
+        background-color: #BED7F1;
+        color: white;
+    }
+
+
